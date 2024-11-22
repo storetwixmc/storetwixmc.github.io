@@ -1,0 +1,512 @@
+<html lang="en-US"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no">
+
+    <title>TWIXMC · Welcome</title>
+
+    <link rel="shortcut icon" href="https://dunb17ur4ymx4.cloudfront.net/webstore/favicons/7f7fe7920e9e1fd6368d421ffec0548662b928e2.png">
+
+    <script async="" src="https://www.clarity.ms/s/0.7.49/clarity.js"></script><script async="" src="https://www.clarity.ms/tag/fxlepb8eap"></script><script type="text/javascript">
+const __kTemplateConstants = {
+  loginRequired: true,
+  isLoggedIn: true,
+  toast: null,
+  checkoutTheme: `auto`,
+  locale: `en_US`
+}
+
+function __(id) {
+  const strings = {
+    "Add to Basket": `Add to Basket`,
+    "Added to Basket": `Added to Basket`,
+    "Subscribe": `Subscribe`,
+    "Gift this package": `Gift this package`,
+    "Gift": `Gift`,
+    "Send gift": `Send gift`,
+    "Time Expired": `Time Expired`,
+    "Copied!": `Copied!`,
+    "Close": `Close`,
+    "Enter a username to gift this package to":
+      `Enter a username to gift this package to`,
+    "Failed to add to basket": `Failed to add to basket`,
+    "Basket": `Basket`,
+    "Basket is empty": `Basket is empty`,
+    "Please fill in all fields": `Please fill in all fields`,
+    "Gift sent to": `Gift sent to`,
+    "Failed to send gift": `Failed to send gift`,
+    "Please enter a valid username": `Please enter a valid username`
+  }
+
+  return strings[id] ?? id
+}
+</script>
+    <script defer="" src="https://js.tebex.io/v/1.js"></script>
+    <script defer="" src="/template-assets/main.js?updated=3cf8363fbb638ca2c0581b96372d3e0337cd5b14898182e49663c5d662dfdf31"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <link href="/template-assets/shared.css?updated=62ef1adf56a4b6e96356124a8756acfa275be7ab9b550b8c6be41369ac791ddf" rel="stylesheet">
+
+        <style>@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wdth,wght@0,62.5..100,100..900;1,62.5..100,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+:root {
+  --color-primary: #fcaf17;
+  --bg-image: url("https://webstore-template-assets.tebex.io/images/page-header-bg-fivem.jpg");
+  --widget-padding: 24px;
+  --content-padding: 20px;
+}
+@media (width > 960px) {
+  :root {
+    --content-padding: 40px;
+  }
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  z-index: -1;
+  background: var(--color-bg) var(--bg-image) center center/cover no-repeat;
+  mask-image: linear-gradient(rgba(0, 0, 0, 0.5) 60%, transparent);
+  pointer-events: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Rubik, sans-serif;
+  font-weight: 700;
+}
+
+.btn-success,
+.btn-primary,
+.btn-secondary,
+.btn-tertiary {
+  border-radius: 2px;
+}
+
+.btn-success:hover, .btn-success:focus,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  box-shadow: 0 0 6px rgb(from var(--btn-color-bg-hover) r g b/0.6);
+}
+
+.quantity-field {
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.site-header-inner {
+  font-family: Rubik, sans-serif;
+}
+
+.site-home-categories {
+  position: relative;
+  z-index: 1;
+}
+.site-home-categories .category {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  padding: 32px;
+  min-height: 215px;
+  border-radius: 4px;
+  overflow: hidden;
+  font-family: Rubik, sans-serif;
+}
+.site-home-categories .category:hover {
+  color: var(--color-primary);
+}
+.site-home-categories .category::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(transparent 25%, var(--color-bg));
+}
+.site-home-categories .category img {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: var(--color-brighter-bg);
+}
+
+.store-text {
+  border-radius: 4px;
+  border: 1px solid #2D2D2D;
+  padding: calc(var(--widget-padding) - 1px);
+  background: var(--color-brighter-bg);
+}
+.store-text h1, .store-text h2, .store-text h3, .store-text h4, .store-text h5, .store-text h6 {
+  color: var(--color-text);
+}
+
+.category-description {
+  border-radius: 4px;
+  border: 1px solid #2D2D2D;
+  padding: calc(var(--widget-padding) - 1px);
+  background: var(--color-brighter-bg);
+}
+.category-description h1, .category-description h2, .category-description h3, .category-description h4, .category-description h5, .category-description h6 {
+  color: var(--color-text);
+}
+
+.store-product {
+  border-radius: 4px;
+  border: 1px solid #2D2D2D;
+  background: var(--color-brighter-bg);
+}
+.store-product .descr h1, .store-product .descr h2, .store-product .descr h3, .store-product .descr h4, .store-product .descr h5, .store-product .descr h6 {
+  color: var(--color-text);
+}
+
+.no-products {
+  border-radius: 4px;
+  border: 1px solid #2D2D2D;
+  background: var(--color-brighter-bg);
+}
+
+.site-navigation .navigation-list,
+.navigation-vertical .navigation-list,
+.navigation-horizontal .navigation-list {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+}
+
+@media (width > 960px) {
+  .navigation-horizontal .navigation-list {
+    padding: 15px;
+    border-radius: 4px;
+  }
+  .navigation-horizontal .navigation-list > li {
+    border: 1px solid transparent;
+    line-height: 20px;
+  }
+  .navigation-horizontal .navigation-list > li > a {
+    padding: 10px calc(var(--widget-padding) / 2);
+  }
+  .navigation-horizontal .navigation-list > li.active {
+    border-color: #464747;
+    border-radius: 4px;
+    background: #1A1A1A;
+  }
+  .navigation-horizontal .navigation-list > li.active > a {
+    border-radius: 4px;
+  }
+}
+.navigation-horizontal a.link-active {
+  color: var(--color-text);
+  font-weight: 700;
+}
+.navigation-horizontal .has-children > ul {
+  border-radius: 4px;
+}
+
+.navigation-vertical {
+  border-radius: 4px;
+  border: 1px solid #2D2D2D;
+  padding: calc(var(--widget-padding) / 2);
+  background: var(--color-brighter-bg);
+}
+
+.widget {
+  padding: 0;
+}
+
+.widget-title {
+  margin-bottom: 18px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.widget-content {
+  border-radius: 4px;
+  border: 1px solid #2D2D2D;
+  padding: calc(var(--widget-padding) - 1px);
+  background: var(--color-brighter-bg);
+}
+
+.widget-featured .store-product {
+  border: 0;
+  padding: 0;
+}
+
+.popup .popup-close {
+  border-radius: 0 4px 0 0;
+}</style>
+    <style>
+        :root {--bg-image: url(//cdn.tebex.io/webstore/1516433/images/1516433-3a55d4bed8b90ceaa778a9d196975584e908a654.jpg);--text-price: "Price";
+        }
+    </style>
+<script type="text/javascript">
+   (function(c,l,a,r,i,t,y){
+       c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+       t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+       y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+   })(window, document, "clarity", "script", "fxlepb8eap");
+</script>
+</head>
+
+<body class="is-navigation-vertical page-index" cz-shortcut-listen="true">
+  <div class="site" data-toast="">
+    <header id="header" class="site-header">
+  <div class="site-header-inner">
+    <div class="actions">
+        <button class="btn-tertiary btn-icon toggle-navigation">Toggle menu</button>
+    </div>
+
+          <div class="user-actions">
+        <div class="btn-secondary btn-glyph-text user-name">
+            Jone
+        </div>
+
+        <button class="btn-primary btn-glyph-text open-basket" data-click-set="true">Basket</button>
+
+        <ul class="user-menu" style="min-width: 91px;">
+          <li><a class="log-out" href="/checkout/logout">Log out</a></li>
+        </ul>
+      </div>
+    
+    <h1 class="site-title">
+      <a href="/">
+                  <img src="//dunb17ur4ymx4.cloudfront.net/webstore/logos/4b251fb75720093f2bcc4015c042aad4f76ecfc9.png" alt="TWIXMC">
+              </a>
+    </h1>
+
+          <div class="info server">
+        <img class="image" src="https://webstore-template-assets.tebex.io/images/server-logo.svg" alt="Server name">
+        <strong class="title">
+          PLAY.TWIXMC.COM
+        </strong>
+        <button class="action" data-copy="play.twixmc.com">Click to Copy</button>
+      </div>
+    
+          <a class="info discord" href="https://discord.gg/YsgJeteQ" target="_blank">
+        <img class="image" src="https://webstore-template-assets.tebex.io/images/discord.svg" alt="Discord">
+        <strong class="title">Join our Discord</strong>
+        <span class="action">Click to Join</span>
+      </a>
+      </div>
+
+  </header>
+
+    
+<div class="site-content site-content-widgets">
+    <main class="store-text text-content">
+        <h1 style="color:#afb644;">ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛᴡɪxᴍᴄ ᴏғғɪᴄɪᴀʟ sᴛᴏʀᴇ</h1><p style="color:rgb(153,150,150);">Welcome to the official TwixMC Store. To begin shopping, please select a category from the sidebar. Please note that ranks cost a one-time fee and are unlocked permanently!</p><h2 style="color:#4da564;"><strong>sᴜᴘᴘᴏʀᴛ</strong></h2><p style="color:rgb(155,152,152);">Need any questions answered before checkout? Waited more than 20 minutes but your package still has not arrived? Ask the community/staff on Discord, or for payment support, submit a support ticket on our website.</p><h2 style="color:#fe3c45;"><strong>ʀᴇғᴜɴᴅ ᴘᴏʟɪᴄʏ&nbsp;</strong></h2><p style="color:#9b9898;">All payments are final and non-refundable. Attempting a chargeback will result in permanent and irreversible banishment from all of our servers. It could take between 1-20 minutes for your purchase to be credited in-game.</p><p><span style="color:rgb(44,130,201);"><a class="discord-button" href="https://discord.gg/7JFEWaDc" target="_blank" rel="noreferrer noopener"><strong><u>DISCORD</u></strong></a></span></p><p style="color:rgb(155,152,152);">If you are still not credited after this time period, please open a support ticket on our forums with proof of purchase and we will look into your issue.<br><br></p><div class="small-container-contact"><h2 style="color:#06a0c7;"><strong>ᴄᴏɴᴛᴀᴄᴛ ᴜs!&nbsp;</strong></h2><p style="color:#9b9898;">Experiencing an issue with your purchase? We're here to help! Reach out to us at <span style="color:#06a0c7;text-decoration:underline;">twix@gmail.com</span> and our team will assist you promptly.</p></div>
+    </main>
+
+            <aside class="store-sidebar">
+            <nav class="site-navigation widget navigation-vertical" id="site-navigation">
+  <ul class="navigation-list">
+    <li class="active">
+      <a class="link-active" href="/">Home</a>
+    </li>
+
+          <li class="
+                      ">
+        <a href="/category/ranks">RANKS</a>
+
+              </li>
+          <li class="
+                      ">
+        <a href="/category/keys">KEYS</a>
+
+              </li>
+    
+          <li>
+        <a href="/about">About</a>
+      </li>
+    
+          <li class="log-out mobile-only">
+        <a href="/checkout/logout">Log out</a>
+      </li>
+      </ul>
+
+  <button class="btn-tertiary btn-icon close-navigation">Close menu</button>
+</nav>
+        
+    <div class="widget widget-text">
+    <h4 class="widget-title">Modules</h4>
+    <div class="widget-content text-content">You can configure the sidebar of your webstore by going to <strong>Webstore</strong> &gt; <strong>Sidebar</strong>.</div>
+</div>
+<div class="widget widget-top-donator">
+    <h4 class="widget-title">Top Customer</h4>
+    
+    <div class="widget-content">
+                	<p class="empty">No recent top purchaser to display.</p>
+            </div>
+</div>
+<div class="widget widget-recent">
+  <h4 class="widget-title">Recent Payments</h4>
+  <div class="widget-content">
+          <p class="empty">No recent payments to display.</p>
+      </div>
+</div>
+
+</aside>
+    </div>
+
+    <footer class="site-footer">
+	<div class="site-footer-inner">
+		<ul class="we-accept">
+			<li><img src="https://webstore-template-assets.tebex.io/images/we-accept/apple.svg" alt="Apple Pay"></li>
+			<li><img src="https://webstore-template-assets.tebex.io/images/we-accept/google.png" alt="Google Pay"></li>
+			<li><img src="https://webstore-template-assets.tebex.io/images/we-accept/mastercard.png" alt="Mastercard"></li>
+			<li><img src="https://webstore-template-assets.tebex.io/images/we-accept/visa.png" alt="Visa"></li>
+			<li><img src="https://webstore-template-assets.tebex.io/images/we-accept/amex.png" alt="American Express"></li>
+		</ul>
+
+		<p class="copyright">© 2024 TWIXMC. All Rights Reserved. We do not have affiliation with any real world brands.</p>
+	</div>
+</footer>
+  </div>
+<script>
+    jQuery(".card-container").eq(0).remove();
+</script>
+<script type="text/javascript" src="/assets/js/discord.js"></script>
+<div id="waiting-overlay" style="display: none;">
+    <i class="fa fa-cog fa-spin fa-3x"></i>
+</div>
+
+<!--
+    Removal of the Tebex footer violates our Terms & Conditions.
+    Due to Tebex being the Merchant of Record, the footer is a contractual requirement by our payment processing partners such as VISA & Mastercard.
+    Any attempt to hide or make the inner text of the footer unreadable will result in an immediate lock of your store & available funds with no exceptions.
+    We perform random checks on all stores to ensure you are abiding by this requirement.
+    We’re happy for you to change the colors and max-width of the footer to suit your design requirements, which you can learn how to do so by reading the documentation available at https://docs.tebex.io/developers/templates/footer
+-->
+<tebex-footer>
+    
+</tebex-footer>
+
+<script type="text/javascript">
+    (() => {
+
+        const notAllowed = () => {
+            const err = 'Removal of the Tebex footer violates our Terms & Conditions. Please refer to the documentation at https://docs.tebex.io/developers/templates/footer';
+            console.warn(err);
+        };
+
+        // Used to access DOM methods that are gated externally
+        const SHADOW_ROOT = Symbol();
+        const ATTACH_SHADOW = Symbol();
+        const QUERY_SELECTOR = Symbol();
+        const SET_ATTRIBUTE = Symbol();
+        const REMOVE_ATTRIBUTE = Symbol();
+        const GATE_ON = Symbol();
+
+        class TebexFooter extends HTMLElement {
+            constructor() {
+                super();
+
+                this[SHADOW_ROOT] = this.shadowRoot;
+                this[ATTACH_SHADOW] = this.attachShadow;
+                this[QUERY_SELECTOR] = this.querySelector;
+                this[SET_ATTRIBUTE] = this.setAttribute;
+                this[REMOVE_ATTRIBUTE] = this.removeAttribute;
+                this[GATE_ON] = true;
+
+                // Prevent shadow DOM access
+                this.attachShadow = notAllowed;
+                Object.defineProperty(this, 'shadowRoot', {
+                    get: () => null,
+                    set: notAllowed
+                });
+
+                // Polyfill for declarative shadow DOM
+                if (!this[SHADOW_ROOT]) {
+                    const template = this[QUERY_SELECTOR]('template[shadowrootmode]');
+                    const mode = template.getAttribute('shadowrootmode');
+                    const shadowRoot = this[ATTACH_SHADOW]({ mode });
+                    shadowRoot.appendChild(template.content);
+                    this[SHADOW_ROOT] = shadowRoot;
+                    template.remove();
+                }
+
+                // Warn against edits to internal shadow DOM content
+                const observer = new MutationObserver((mutationList, observer) => {
+                    if (this[GATE_ON])
+                        notAllowed();
+                    this[GATE_ON] = true;
+                });
+                const observerConfig = {
+                    attributes: true,
+                    childList: true,
+                    characterData: true,
+                    subtree: true
+                };
+                observer.observe(this[SHADOW_ROOT], observerConfig);
+
+                this.#reposition();
+
+                document.addEventListener('DOMContentLoaded', () => {
+                    this.#reposition();
+                });
+
+                function debounce(func) {
+                    var timer;
+                    return function (event) {
+                        if (timer) clearTimeout(timer);
+                        timer = setTimeout(func, 100, event);
+                    };
+                }
+
+                addEventListener('resize', debounce(() => {
+                    this.#reposition();
+                }));
+
+                addEventListener('scroll', debounce(() => {
+                    this.#reposition();
+                }));
+            }
+
+            disconnectedCallback() {
+                notAllowed();
+            }
+
+            #reposition() {
+                this[GATE_ON] = false;
+                if (document.body.clientHeight < (window.innerHeight - this.clientHeight))
+                    this[SET_ATTRIBUTE]('absolute', '');
+                else
+                    this[REMOVE_ATTRIBUTE]('absolute');
+            }
+        }
+
+        customElements.define('tebex-footer', TebexFooter);
+    })();
+</script>
+
+<script type="text/javascript">
+    window.nSureAsyncInit = function(deviceId) {
+        window.nSureSDK.init({
+            appId: 'Z620Q2525RT9DWKA',
+            storeInfo: {
+                id: '1315206',
+                type: 'storeFront'
+            }
+        });
+
+        document.cookie = "deviceId="+deviceId+"; path=/";
+
+            }
+</script>
+<script type="text/javascript" src="https://nsure.tebex.io/sdk.js">
+</script>
+
+
+<div id="extension-kjloo"></div><script src="https://sdk.nsureapi.com/sdk-core-v1.1.64.js"></script><script async="" src="https://device.maxmind.com/js/device.js"></script></body></html>

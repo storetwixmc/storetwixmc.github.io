@@ -1,0 +1,725 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+    background: #1E1E29;
+    margin: 0;
+    padding: 0;
+    background-image: url(BG.jpeg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    /* Ensure the content is positioned correctly */
+    z-index: 1;
+    /* Ensure the content is above the blurred background */
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+aside {
+    width: 265px;
+    background: #2c2c3c;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    height: 264px;
+    margin-left: -25px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    /* Reduce spacing between logo and text */
+
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: start;
+    transition: color 0.2s;
+    font-size: 19px;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+.nav-icon {
+    width: 61px;
+    margin-right: 48px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.main-content1 {
+    background: #2c2c3c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -309px;
+    margin-left: 280px;
+    text-align: center;
+
+
+}
+
+.main-content2 {
+    background: #2c2c3c;
+    padding: 20px;
+    border-radius: 10px;
+    top: 628px;
+    margin-left: 280px;
+
+}
+
+nav ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    width: 305px;
+    height: 1px;
+    background-color: #ffffff27;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.container {
+    flex-wrap: wrap;
+
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    font-family: Montserrat, sans-serif;
+
+
+
+}
+
+
+
+.rank h2,
+.key h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #1b6fb9;
+}
+
+.rank p,
+.key p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+
+
+.info-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.main-content1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #2c2c3c;
+    padding: 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 76.5%;
+    height: 230px;
+
+}
+
+
+
+.rank-info {
+    text-align: center;
+    color: gold;
+}
+
+
+
+
+.info-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 10%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    display: inline-block;
+    /* Ensure the button is inline */
+    margin-right: -10px;
+    /* Add space between buttons */
+    vertical-align: middle;
+
+}
+
+
+button:hover {
+    color: #ffffff;
+    /* Change text color on hover */
+}
+
+button .button-icon {
+    width: 20px;
+    /* Adjust size as needed */
+    margin-right: 8px;
+    /* Adjust spacing between icon and text */
+    transition: filter 0.3s, box-shadow 0.3s;
+}
+
+button:hover .button-icon {
+    filter: drop-shadow(0 0 10px #228be6);
+    /* Glow effect on the icon */
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 78%;
+    border: 1px solid #2c2c3c;
+    background-color: #2c2c3c;
+    margin-left: 283px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.small-container {
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+
+    flex: 1 1 30%;
+    /* Each container takes up approximately 30% */
+    border: 1px solid #494949;
+    margin: 10px;
+    box-sizing: border-box;
+    height: 280px;
+    /* Adjust height as needed */
+    text-align: center;
+    /* Center contents */
+    background-color: #373749;
+    border-radius: 5px;
+
+}
+
+.small-container img {
+    width: 128px;
+    /* Adjust size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 10px;
+    /* Center image and add margin */
+    padding-top: 20px;
+}
+
+
+
+
+.rank-paragraph {
+    color: white;
+    text-align: center;
+
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 16px;
+    /* Font size */
+    text-align: center;
+    /* Text alignment */
+    letter-spacing: 1px;
+    /* Space between letters */
+    line-height: 1.5;
+    /* Line height */
+    padding-right: 10px;
+
+}
+
+.header-container-title{
+    width: 78%;
+    margin: 0 auto 20px;
+    padding: 60px;
+    box-sizing: border-box;
+    border: 1px solid #2c2c3c;
+    text-align: center;
+    /* Center the text */
+    background-color: #2c2c3c;
+    margin-top: -322px;
+    margin-left: 285px;
+    border-radius: 5px;
+    position: relative;
+    /* Set position to relative to use absolute for the paragraph */
+    height: 250px;
+
+}
+
+.header-container-title h1 {
+    color: gold;
+    
+    /* Color for RANKS heading */
+}
+
+.header-container-title p {
+    color: #ababac;
+    /* Color for paragraph */
+    position: absolute;
+    bottom: 12px;
+}
+
+.rank-name {
+    color: white;
+    /* White color for rank name */
+    top: 52px;
+    margin-bottom: 520px;
+    padding: 0%;
+
+}
+
+
+
+
+
+.rank-name {
+    margin-bottom: 20px;
+    /* Adds space below the rank name */
+}
+
+.price {
+    margin-bottom: 10px;
+    /* Adds space below the rank price */
+    color: gold;
+}
+
+
+
+.footer-text {
+    color: #f39c12;
+    /* Gold color for the first line */
+    font-size: 15px;
+    /* Adjust font size as needed */
+    margin-left: -30px;
+}
+
+.footer-note {
+    color: #ecf0f1;
+    /* Light text color for the second line */
+    font-size: 13.5px;
+    /* Adjust font size as needed */
+    margin-left: -30px;
+}
+
+
+.footer {
+    background: rgb(56, 56, 56);
+    margin-top: 1px;
+    padding: 0.5px 0px;
+    font-family: 'Play', sans-serif;
+    padding-left: 10px;
+}
+
+.footer .row {
+    width: 100%;
+    margin: .01% 0%;
+    padding: 0.6% 0%;
+    color: rgb(197, 193, 193);
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: rgb(226, 222, 222);
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    background-color: #5d5f66;
+    border: none;
+    cursor: pointer;
+    color: #999a9c;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    margin-left: 20px;
+    gap: 10px;
+    margin-top: -150px;
+    
+
+    text-decoration: none; /* Ensure no underline */
+}
+
+
+
+.home-button .button-icon {
+    
+    margin-right: 18px;
+    width: 24px;
+    height: 24px;
+    text-decoration: none; /* Ensure no underline */
+}
+
+.home-button:hover {
+    background-color: #505053;
+    text-decoration: none; /* Ensure no underline */
+}
+/* Add to Cart Button Styles */
+.add-to-cart-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #57b971; /* Beautiful red color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+.add-to-cart-button:hover {
+    background-color: #4da564; /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+.add-to-cart-button:active {
+    background-color: #4da564; /* Even darker shade on active */
+    transform: translateY(2px);
+}
+
+/* Rank Name Styles */
+.rank-name {
+    color: gold;
+    font-weight: bold;
+}
+
+/* Price Styles */
+.price {
+    color: white;
+}
+
+/* Image Size Adjustment */
+.small-container img {
+    max-width: 100px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Cart Item Styles for Checkout Page */
+.cart-item img {
+    max-width: 50px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+.cart-item .item-info p {
+    margin: 5px 0;
+}
+
+/* Dynamic Container Adjustment */
+.cart-items-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item-info {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.item-actions {
+    display: flex;
+    align-items: center;
+}
+
+.total-price-container {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+    /* Removed background-color */
+}
+
+/* Style for the left and right sections */
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    font-size: 24px;
+}
+
+/* Style for the logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+/* Levitation effect for the logo */
+.levitate {
+    animation: levitate 3s ease-in-out infinite;
+}
+
+@keyframes levitate {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Style for the button logos (Discord and Play) */
+.logo-img-discord {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 45px;
+
+}
+
+.logo-img-ip {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 45px;
+}
+
+/* Style for the server info text */
+.server-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* Ensure text elements are correctly layered */
+.server-name {
+    margin-bottom: -5px;
+    /* Space between top text and logo */
+    z-index: 2;
+    text-decoration: none;
+}
+
+.click-text-discord {
+    margin-top: 10px;
+    /* Space between logo and bottom text */
+    z-index: 2;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.click-text-discord,
+.click-text-ip {
+    margin-top: 10px;
+    /* Space between logo and bottom text */
+    z-index: 2;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.snow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+    /* Ensure snow is behind other elements */
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: 2px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 50%;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(300px);
+    }
+}
+/* Reduce falling speed */ .snowflake { animation-duration: 16s, linear infinite; }
+.nanodev-button {
+    color: #fff;
+    background-color: rgb(34, 139, 230);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nanodev-button:hover {
+    background-color: #1a73e8;
+}
+
+.footer-link {
+    text-decoration: underline;
+    margin-left: 580px;
+    color: rgb(226, 222, 222);
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        padding: 5%;
+    }
+
+    .footer .row {
+        text-align: left;
+    }
+}

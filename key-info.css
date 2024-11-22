@@ -1,0 +1,618 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1E1E29;
+    background-image: url(BG.jpeg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+
+.cart-items-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    margin-left: 1px;
+    margin-right: 14px;
+    gap: 18px;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #45455c;
+    margin: 19px 0;
+    width: 105.1%;
+    margin-left: -21px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #45455c;
+    padding: 1px;
+    background-color: #373749;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.cart-item-image {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 10px;
+    padding-left: 3px;
+}
+
+/* Style for the item info */
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    flex: 1;
+}
+
+/* Style for the product name */
+.rank-name {
+    font-weight: bold;
+    color: gold;
+    margin-left: -400px;
+    text-align: center;
+
+}
+
+/* Style for the price */
+.price {
+    color: grey;
+    margin-top: 5px;
+    margin-left: -400px;
+    text-align: center;
+}
+    .total-price-container {
+        font-size: 18px;
+        font-weight: bold;
+        transition: max-height 0.3s ease;
+    
+        overflow: hidden;
+        background-color: #2c2c3c;
+        text-align: right;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 300px;
+        /* Removed background-color */
+    }
+    
+    /* Style for the left and right sections */
+    .header-left,
+    .header-right {
+        display: flex;
+        align-items: center;
+        margin-left: 28px;
+        font-size: 24px;
+    }
+    
+    /* Style for the logo */
+    .logo {
+        display: flex;
+        justify-content: center;
+        flex: 1;
+    }
+    
+    /* Levitation effect for the logo */
+    .levitate {
+        animation: levitate 3s ease-in-out infinite;
+    }
+    
+    @keyframes levitate {
+    
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+    
+        50% {
+            transform: translateY(-10px);
+        }
+    }
+    
+    /* Style for the button logos (Discord and Play) */
+    .logo-img-discord {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 45px;
+    
+    }
+    
+    .logo-img-ip {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin-top: 45px;
+    }
+    
+    /* Style for the server info text */
+    .server-info {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        z-index: 1;
+        text-decoration: none;
+    }
+    
+    /* Ensure text elements are correctly layered */
+    .server-name {
+        margin-bottom: -5px;
+        /* Space between top text and logo */
+        z-index: 2;
+        text-decoration: none;
+    }
+    
+    .click-text-discord {
+        margin-top: 10px;
+        /* Space between logo and bottom text */
+        z-index: 2;
+        font-size: 16px;
+        text-decoration: none;
+    
+    }
+    
+    .click-text-discord,
+    .click-text-ip {
+        margin-top: 10px;
+        /* Space between logo and bottom text */
+        z-index: 2;
+        font-size: 16px;
+        text-decoration: none;
+    
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .snow-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        overflow: hidden;
+        z-index: 0;
+        /* Ensure snow is behind other elements */
+    }
+    
+    .snowflake {
+        position: absolute;
+        top: -10px;
+        width: 2px;
+        height: 2px;
+        background: white;
+        opacity: 0.8;
+        border-radius: 50%;
+        animation: fall linear infinite;
+    }
+    
+    @keyframes fall {
+        to {
+            transform: translateY(300px);
+        }
+    }
+    /* Reduce falling speed */ .snowflake { animation-duration: 16s, linear infinite; }
+    /* Reduce falling speed */ .snowflake { animation-duration: 16s, linear infinite; }
+    .header-container-title {
+        width: 79%;
+        margin: 0 auto 20px;
+        padding: 60px;
+        box-sizing: border-box;
+        border: 1.5px solid #45455c;
+        text-align: center;
+        /* Center the text */
+        background-color: #2c2c3c;
+        margin-top: -322px;
+        margin-left: 283px;
+        border-radius: 5px;
+        position: relative;
+        /* Set position to relative to use absolute for the paragraph */
+        height: 100px;
+        color: gold;
+
+    }
+
+    .delete-icon {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+        padding-right: 8px;
+    }
+
+    .header-container-title h1 {
+        color: gold;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #2c2c3c;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    /* Style for the finalize header */
+    .finalize-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+        padding-bottom: 15px;
+    }
+
+    .cart-logo {
+        width: 26px;
+        height: 26px;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+
+    .finalize-header span {
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+
+    /* Style for the proceed button */
+    #proceed-button {
+        display: block;
+        width: 50%;
+        padding: 28px;
+        background-color: #398f4d;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        text-align: center;
+        padding-bottom: -5px;
+    }
+
+    #proceed-button:hover {
+        background-color: rgb(41, 155, 65);
+    }
+
+    .proceed-container {
+        width: 76.5%;
+        margin: 0 auto 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        border: 1px solid #2c2c3c;
+        text-align: center;
+        /* Center the text */
+        background-color: #2c2c3c;
+        margin-top: 15px;
+        margin-left: 280px;
+        border-radius: 5px;
+    }
+
+
+
+
+
+    button:hover {
+        background-color: #494961;
+    }
+
+    
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    aside {
+        width: 265px;
+        background: #2c2c3c;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        border-radius: 5px;
+        height: 264px;
+        margin-left: -25px;
+
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 10px;
+        /* Reduce spacing between logo and text */
+
+    }
+
+    nav ul li {
+        margin: 20px 0;
+    }
+
+    nav ul li a {
+        display: flex;
+        align-items: start;
+        transition: color 0.2s;
+        font-size: 19px;
+    }
+
+    nav ul li a:hover {
+        color: gold;
+    }
+
+    .nav-icon {
+        width: 61px;
+        margin-right: 48px;
+        margin-left: 10%;
+        margin-bottom: 10px;
+    }
+
+    main {
+        flex: 1;
+        padding: 20px;
+        color: white;
+    }
+
+    .main-content1 {
+        background: #2c2c3c;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: -309px;
+        margin-left: 280px;
+        text-align: center;
+
+
+    }
+
+    .main-content2 {
+        background: #2c2c3c;
+        padding: 20px;
+        border-radius: 10px;
+        top: 628px;
+        margin-left: 280px;
+
+    }
+
+    nav ul li a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        transition: color 0.3s;
+
+    }
+
+    nav ul li a::before {
+        content: '';
+        position: absolute;
+        top: -10px;
+        left: -30px;
+        width: 305px;
+        height: 1px;
+        background-color: #ffffff27;
+        font-family: Montserrat, sans-serif;
+
+    }
+
+    .container {
+        flex-wrap: wrap;
+
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+        font-family: Montserrat, sans-serif;
+
+
+
+    }
+
+
+
+    .rank h2,
+    .key h2 {
+        margin: 10px 0;
+        font-size: 20px;
+        color: #1b6fb9;
+    }
+
+    .rank p,
+    .key p {
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+
+    .main-content1 {
+        background: #2c2c3c;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: -309px;
+        margin-left: 280px;
+        text-align: center;
+    }
+
+    .main-content2 {
+        background: #2c2c3c;
+        padding: 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+        margin-left: 280px;
+    }
+
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 79%;
+        border: 1.5px solid #45455c;
+        background-color: #2c2c3c;
+        margin-left: 285px;
+        margin-top: 1.8%;
+        border-radius: 5px;
+        margin-bottom: 120px;
+    }
+
+    .small-container {
+        width: 76.5%;
+        margin: 0 auto 20px;
+        box-sizing: border-box;
+        border: 1px solid #2c2c3c;
+        text-align: center;
+        /* Center the text */
+        background-color: #2c2c3c;
+        margin-top: -10px;
+        margin-left: 280px;
+        border-radius: 5px;
+    }
+    .footer-text {
+        color: #f39c12;
+        /* Gold color for the first line */
+        font-size: 15px;
+        /* Adjust font size as needed */
+        margin-left: 8px;
+    }
+    
+    .footer-note {
+        color: #ecf0f1;
+        /* Light text color for the second line */
+        font-size: 13.5px;
+        /* Adjust font size as needed */
+        margin-left: 8px;
+    
+    }
+    .footer {
+        background: rgb(56, 56, 56);
+        margin-top: 1px;
+        padding: 0.5px 0px;
+        font-family: 'Play', sans-serif;
+        padding-left: 10px;
+    }
+    
+    .footer .row {
+        width: 100%;
+        margin: .01% 0%;
+        padding: 0.6% 0%;
+        color: rgb(197, 193, 193);
+        font-size: 0.8em;
+    }
+    
+    .footer .row a {
+        text-decoration: none;
+        color: rgb(226, 222, 222);
+        transition: 0.5s;
+    }
+    
+    .footer .row a:hover {
+        color: #fff;
+    }
+    
+    .footer .row ul {
+        width: 100%;
+    }
+    
+    .footer .row ul li {
+        display: inline-block;
+        margin: 0px 30px;
+    }
+    
+    .footer .row a i {
+        font-size: 2em;
+        margin: 0% 1%;
+    }
+    
+    @media (max-width:720px) {
+        .footer {
+            text-align: left;
+            padding: 5%;
+        }
+    
+        .footer .row ul li {
+            display: block;
+            margin: 10px 0px;
+            text-align: left;
+        }
+    
+        .footer .row a i {
+            margin: 0% 3%;
+        }
+    }
+    
+    h2 {
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+    }
+    .nanodev-button {
+        color: #fff;
+        background-color: rgb(34, 139, 230);
+        padding: 5px 10px;
+        border: none;
+        border-radius: 3px;
+        text-transform: uppercase;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    
+    .nanodev-button:hover {
+        background-color: #1a73e8;
+    }
+    
+    .footer-link {
+        text-decoration: underline;
+        margin-left: 580px;
+        color: rgb(226, 222, 222);
+    }
+    
+    .footer-link:hover {
+        color: #fff;
+    }
+    
+    @media (max-width: 720px) {
+        .footer {
+            padding: 5%;
+        }
+    
+        .footer .row {
+            text-align: left;
+        }
+    }

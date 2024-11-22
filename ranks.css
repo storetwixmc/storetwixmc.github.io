@@ -1,0 +1,839 @@
+body {
+    font-family: 'Arial', sans-serif;
+
+    background: #1E1E29;
+    margin: 0;
+    padding: 0;
+    background-image: url(BG.jpeg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+aside {
+    width: 265px;
+    background: #2c2c3c;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    height: 264px;
+    margin-left: -25px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px;
+    /* Reduce spacing between logo and text */
+
+}
+
+nav ul li {
+    margin: 20px 0;
+}
+
+nav ul li a {
+    display: flex;
+    align-items: start;
+    transition: color 0.2s;
+    font-size: 19px;
+}
+
+nav ul li a:hover {
+    color: gold;
+}
+
+.nav-icon {
+    width: 61px;
+    margin-right: 48px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    color: white;
+}
+
+.main-content1 {
+    background: #2c2c3c;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: -309px;
+    margin-left: 280px;
+    text-align: center;
+
+
+}
+
+.main-content2 {
+    background: #2c2c3c;
+    padding: 20px;
+    border-radius: 10px;
+    top: 628px;
+    margin-left: 280px;
+
+}
+
+nav ul li a {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+
+}
+
+nav ul li a::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -30px;
+    width: 305px;
+    height: 1px;
+    background-color: #ffffff27;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.container {
+    flex-wrap: wrap;
+
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+    font-family: Montserrat, sans-serif;
+
+
+
+}
+
+
+
+.rank h2,
+.key h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #1b6fb9;
+}
+
+.rank p,
+.key p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+
+
+.info-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.main-content1 {
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #2c2c3c;
+    padding: 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 76.5%;
+    height: 230px;
+
+}
+
+
+
+.rank-info {
+    text-align: center;
+    color: gold;
+}
+
+
+
+
+.info-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 10%;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+    display: inline-block;
+    /* Ensure the button is inline */
+    margin-right: -10px;
+    /* Add space between buttons */
+    vertical-align: middle;
+
+}
+
+
+button:hover {
+    color: #2399ff;
+    /* Change text color on hover */
+}
+
+
+button:hover .button-icon {
+    filter: drop-shadow(0 0 10px #1968ad);
+    /* Glow effect on the icon */
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 77.5%;
+    border: 1px solid #2c2c3c;
+    background-color: #2c2c3c;
+    margin-left: 285px;
+    margin-top: 1.8%;
+    border-radius: 5px;
+margin-bottom: 15px;
+
+}
+
+.small-container {
+    flex-direction: column;
+    position: relative;
+    justify-content: space-between;
+
+    flex: 1 1 30%;
+    /* Each container takes up approximately 30% */
+    border: 1px solid #494949;
+    margin: 10px;
+    box-sizing: border-box;
+    height: 279px;
+    /* Adjust height as needed */
+    text-align: center;
+    /* Center contents */
+    background-color: #373749;
+    border-radius: 5px;
+
+}
+
+.small-container img {
+    width: 122px;
+    /* Adjust size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 10px;
+    /* Center image and add margin */
+}
+
+
+
+.rank-paragraph {
+    color: white;
+    text-align: center;
+
+    font-family: 'Arial', sans-serif;
+    /* Font family */
+    font-size: 16px;
+    /* Font size */
+    text-align: center;
+    /* Text alignment */
+    letter-spacing: 1px;
+    /* Space between letters */
+    line-height: 1.5;
+    /* Line height */
+    padding-right: 10px;
+
+}
+
+.header-container-title {
+    width: 77.5%;
+    margin: 0 auto 20px;
+    padding: 60px;
+    box-sizing: border-box;
+    border: 1px solid #2c2c3c;
+    text-align: center;
+    /* Center the text */
+    background-color: #2c2c3c;
+    margin-top: -322px;
+    margin-left: 285px;
+    border-radius: 5px;
+    position: relative;
+    /* Set position to relative to use absolute for the paragraph */
+    height: 250px;
+
+}
+
+.header-container-title h1 {
+    color: gold;
+    /* Color for RANKS heading */
+}
+
+.header-container-title p {
+    color: #ababac;
+    /* Color for paragraph */
+    position: absolute;
+    bottom: 12px;
+}
+
+.rank-name {
+    color: white;
+    /* White color for rank name */
+    top: 52px;
+    margin-bottom: 520px;
+    padding: 0%;
+
+}
+
+
+.button-container {
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 10px;
+}
+
+
+
+.perk-button {
+    padding: 8.5px 9.5px;
+    background-color: #2196F3;
+    border: 1px solid #2196F3;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    text-decoration:  none;
+}
+
+
+.perk-button:hover {
+    background-color: #1b7bc9;
+    color: hsl(0, 0%, 100%);
+    /* Change text color on hover */
+}
+
+/* Popup styles */
+.info-popup {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+
+.info-content {
+    background-color: #363648;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #363648;
+    width: 80%;
+    border-radius: 5px;
+    /* Could be more or less, depending on screen size */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.rank-name {
+    margin-bottom: 20px;
+    /* Adds space below the rank name */
+}
+
+.price {
+    margin-bottom: 10px;
+    /* Adds space below the rank price */
+    color: gold;
+}
+
+
+.footer-text {
+    color: #f39c12;
+    /* Gold color for the first line */
+    font-size: 15px;
+    /* Adjust font size as needed */
+    margin-left: -30px;
+}
+
+.footer-note {
+    color: #ecf0f1;
+    /* Light text color for the second line */
+    font-size: 13.5px;
+    /* Adjust font size as needed */
+    margin-left: -30px;
+
+}
+.footer {
+    background: rgb(56, 56, 56);
+    margin-top: 1px;
+    padding: 0.5px 0px;
+    font-family: 'Play', sans-serif;
+    padding-left: 10px;
+}
+
+.footer .row {
+    width: 100%;
+    margin: .01% 0%;
+    padding: 0.6% 0%;
+    color: rgb(197, 193, 193);
+    font-size: 0.8em;
+}
+
+.footer .row a {
+    text-decoration: none;
+    color: rgb(226, 222, 222);
+    transition: 0.5s;
+}
+
+.footer .row a:hover {
+    color: #fff;
+}
+
+.footer .row ul {
+    width: 100%;
+}
+
+.footer .row ul li {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.footer .row a i {
+    font-size: 2em;
+    margin: 0% 1%;
+}
+
+@media (max-width:720px) {
+    .footer {
+        text-align: left;
+        padding: 5%;
+    }
+
+    .footer .row ul li {
+        display: block;
+        margin: 10px 0px;
+        text-align: left;
+    }
+
+    .footer .row a i {
+        margin: 0% 3%;
+    }
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+}
+
+
+.cart-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+#cart-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.cart-popup {
+    display: none;
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.cart-popup h2 {
+    margin-top: 0;
+}
+
+.cart-popup ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-popup li {
+    margin: 10px 0;
+}
+
+.info-content h2 {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.info-content h3 {
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.info-content ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+.info-content ul li {
+    margin-bottom: 5px;
+}
+
+.info-content p {
+    margin-top: 10px;
+    color: green;
+}
+
+.home-button-container {
+    margin-right: auto;
+    text-decoration: none;
+
+}
+
+
+.home-button {
+    display: flex;
+    align-items: center;
+    background-color: #5d5f66;
+    border: none;
+    cursor: pointer;
+    color: #999a9c;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: all 0.2s ease;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    height: 30px;
+    margin-left: 10px;
+    gap: 10px;
+    margin-top: -260px;
+    
+
+    text-decoration: none; /* Ensure no underline */
+}
+
+
+
+.home-button .button-icon {
+    
+    margin-right: 18px;
+    width: 24px;
+    height: 24px;
+    text-decoration: none; /* Ensure no underline */
+}
+
+.home-button:hover {
+    background-color: #505053;
+    text-decoration: none; /* Ensure no underline */
+}
+/* Add to Cart Button Styles */
+.add-to-cart-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #57b971; /* Beautiful red color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s ease-in;
+}
+
+
+
+.add-to-cart-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #57b971; /* Beautiful red color */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-to-cart-button:hover {
+    background-color: #4da564; /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+.add-to-cart-button:active {
+    background-color: #4da564; /* Even darker shade on active */
+    transform: translateY(2px);
+}
+/* Default styles for desktop */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.small-container {
+    flex: 1 1 300px; /* Flex items to fit at least 300px each */
+    margin: 10px;
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .small-container {
+        width: 100%; /* Make each item take full width */
+        margin: 5px 0;
+    }
+}
+
+/* Styles for mobile phones */
+@media (max-width: 480px) {
+    .small-container img {
+        max-width: 100%; /* Make images responsive */
+        height: auto;
+    }
+
+    .rank-name, .price {
+        font-size: 1.2em; /* Adjust text size for smaller screens */
+    }
+}
+/* Flexbox layout for main container */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.small-container {
+    flex: 1 1 30%;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+/* Ensure images are responsive */
+.small-container img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* Style for the header container */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+    /* Removed background-color */
+}
+
+/* Style for the left and right sections */
+.header-left,
+.header-right {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+    font-size: 24px;
+}
+
+/* Style for the logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+/* Levitation effect for the logo */
+.levitate {
+    animation: levitate 3s ease-in-out infinite;
+}
+
+@keyframes levitate {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Style for the button logos (Discord and Play) */
+.logo-img-discord {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 45px;
+
+}
+
+.logo-img-ip {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 45px;
+}
+
+/* Style for the server info text */
+.server-info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    text-decoration: none;
+}
+
+/* Ensure text elements are correctly layered */
+.server-name {
+    margin-bottom: -5px;
+    /* Space between top text and logo */
+    z-index: 2;
+    text-decoration: none;
+}
+
+.click-text-discord {
+    margin-top: 10px;
+    /* Space between logo and bottom text */
+    z-index: 2;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.click-text-discord,
+.click-text-ip {
+    margin-top: 10px;
+    /* Space between logo and bottom text */
+    z-index: 2;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.snow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: 0;
+    /* Ensure snow is behind other elements */
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
+    width: 2px;
+    height: 2px;
+    background: white;
+    opacity: 0.8;
+    border-radius: 50%;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(300px);
+    }
+}
+/* Reduce falling speed */ .snowflake { animation-duration: 16s, linear infinite; }
+.nanodev-button {
+    color: #fff;
+    background-color: rgb(34, 139, 230);
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nanodev-button:hover {
+    background-color: #1a73e8;
+}
+
+.footer-link {
+    text-decoration: underline;
+    margin-left: 580px;
+    color: rgb(226, 222, 222);
+}
+
+.footer-link:hover {
+    color: #fff;
+}
+
+@media (max-width: 720px) {
+    .footer {
+        padding: 5%;
+    }
+
+    .footer .row {
+        text-align: left;
+    }
+}
